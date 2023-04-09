@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:unset;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.one {
+    flex-basis: 20%;
+    background: rgb(27, 27, 27);
+    width: 100%;
+    height: 125px;
+}
+.two {
+    width: 100%;
+    height: 125px;
+    background: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+.two img{
+    cursor: pointer;
+    margin: 20px;
+    width: 250px;
+}
+.three  {
+    flex-basis: 20%;
+    width: 100px;
+    height: 125px;
+    background:#ffc019;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.play-now {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/*----------------*/
+
+.header {
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-around;
+background: rgb(44, 44, 44);
+}
+
+.left-site-header, .right-site-header {
+    flex-basis: 50px;
+}
+
+.link{
+    padding: 10px;
+}
+.link a {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+.link img {
+    color: white;
+    width: 10px;
+    cursor: pointer;
+}
+
+/*----------------------*/
+.background{
+    width: 100%;
+    height: 800px;
+    background-size: 100%;  
+    background-image:linear-gradient(transparent,rgba(1,1,1,0.7)), url(images/1663884365_6-phonoteka-org-p-oboi-na-rabochii-stol-pabg-instagram-6.jpg);
+    background-size: cover;
+}
+.pubg1{
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+    
+}
+.pubg1 p {
+    
+    color:  white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.pubg2{ 
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.pubg2 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.pubg3{
+    display: flex;
+    justify-content: center; 
+}
+.pubg3 p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.box-border {
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.box1 {
+    margin-right: 20px;
+    width: 220px;
+    height: 70px;
+    border: solid 2px rgb(255, 255, 255);
+    border-bottom-right-radius:  30px 30px ;
+    border-top-left-radius:  30px 30px ;
+}
+.box1 img {
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.box1 h6 {
+  
+    cursor: pointer;
+    color: white;
+    margin-top: -35px ;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+/*---------------------------------------------*/
+.back {
+    width: 100%;
+    height: 2000px;
+    background: rgb(45, 45, 45 );
+    padding-top: 30px ;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 450px;
+    background-image: url(images/fon2.jpg);
+    background-size: cover;
+    
+}
+.left-sitebar, .right-sitebar {
+    
+    width: 50%;
+    height: 100%;
+   
+
+}
+.content {
+    width: 100%;
+    height: 100%;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.name-bord h5 {
+font-size: 40px;
+color: white;
+margin: 30px;
+margin-left: 70px;
+}
+.name-bord img {
+    width: 30px;
+}
+
+.box-button {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    
+}
+
+.button, .button2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 7px;
+    border: solid 2px white;
+    width: 120px;
+    height: 30px;
+   
+}
+.button {
+margin-left: 70px;
+border: solid 2px #ffc019;;
+}
+.button2 {
+    margin-left: 10px;
+}
+
+.button h5{
+   
+    color: #ffc019;;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.button2 h5{
+    
+    color: white;
+    display: flex;
+   
+    justify-content: center;
+    
+}
+
+.update{
+margin-left: 70px;
+}
+
+
+.update h5{
+color: white;
+font-size: 25px;
+}
+.update h6{
+    color: white;
+    font-size: 15px;
+    }
+
+    /*---------------------------------------------*/
+
+.name-bord2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+   
+    
+}
+.name-bord2{
+    cursor: pointer;
+    background-image: url(images/3853452374.jpg);
+    background-size: cover;
+}
+
+.name-bord2 h5{
+    color:  white;
+    font-size: 70px;
+    text-shadow: 10px 0 10px  #ffc019;
+}
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  200px;
+    
+}
+.news h5{
+    color: white;
+    font-size: 40px;
+}
+.news img{
+    width: 30px;
+}
+
+.news-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-news {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.box-one, .box-two{
+    border: solid 1px blue;
+    margin: 0px 30px;
+    width: 500px;
+    height: 600px;
+    
+}
+
+.box-one img{
+    width: 100%;
+}
+
+.box-one-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: solid 1px red;
+    
+}
