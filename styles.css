@@ -6,7 +6,10 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-
+body {
+    
+   
+}
 nav {
     width: 100%;
     display: flex;
@@ -46,6 +49,9 @@ nav {
     font-size: 20px;
     font-weight: 900;
 }
+.play-now:hover {
+    color: white;
+}
 
 
 /*----------------*/
@@ -69,6 +75,11 @@ background: rgb(44, 44, 44);
     cursor: pointer;
     font-size: 20px;
     color: white;
+}
+.link a:hover{
+    transition: all 0.2s;
+    font-size: 22px;
+    
 }
 .link img {
     color: white;
@@ -129,6 +140,7 @@ background: rgb(44, 44, 44);
     justify-content: center;
     
 }
+
 .box1 {
     margin-right: 20px;
     width: 220px;
@@ -136,6 +148,9 @@ background: rgb(44, 44, 44);
     border: solid 2px rgb(255, 255, 255);
     border-bottom-right-radius:  30px 30px ;
     border-top-left-radius:  30px 30px ;
+}
+.box1:hover{
+    background: rgb(41, 41, 41);
 }
 .box1 img {
     cursor: pointer;
@@ -155,10 +170,17 @@ background: rgb(44, 44, 44);
 
 /*---------------------------------------------*/
 .back {
+        width: 100%;
+        
+        background-image: url(images/nastol.com.ua-26972.jpg);
+        background-size: 100%;
+        background-size: cover; 
+        padding-top: 30px ;
+        
+}
+.back img {
     width: 100%;
-    height: 2000px;
-    background: rgb(45, 45, 45 );
-    padding-top: 30px ;
+    
 }
 .container {
     display: flex;
@@ -166,6 +188,7 @@ background: rgb(44, 44, 44);
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: -100px;
     height: 450px;
     background-image: url(images/fon2.jpg);
     background-size: cover;
@@ -282,15 +305,22 @@ font-size: 25px;
     font-size: 70px;
     text-shadow: 10px 0 10px  #ffc019;
 }
+.name-bord2 h5:hover{
+    color: #ffc019;
+    
+    text-shadow: 10px 0 10px  #ffffff;
+}
+/******************************************/
+
 .news {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:  200px;
+    margin-top:  100px;
     
 }
 .news h5{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 40px;
 }
 .news img{
@@ -309,26 +339,108 @@ font-size: 25px;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .box-one, .box-two{
-    border: solid 1px blue;
     margin: 0px 30px;
     width: 500px;
     height: 600px;
+   
     
+}
+
+.box-one:hover{
+   border: #ffc019 solid 5px;
+    transition: all 0.2s ;
 }
 
 .box-one img{
     width: 100%;
 }
 
-.box-one-buttons{
+.box-one{
+    background-image: url(images/white_fon.jpg);
+    background-size: cover;
+   
+}
+
+
+
+.button4, .button5 {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    border: solid 1px red;
+    font-size: 15px;
+    border-radius: 7px;
+    border: solid 2px rgb(0, 0, 0);
+    width: 120px;
+    height: 30px;
+    
+   
+}
+.button4:hover{
+border: solid 2px #ffc019;
+background: #ffc019;
+}
+.button5:hover{
+    border: solid 2px #ffc019;
+    background: #ffc019;
+    }
+.button4{
+    margin-left: 60px;
+}
+.button5{
+    margin-left: 10px;
+}
+
+.update1{
+    margin-left: 70px;
+    }
+    
+    
+.update1 h5{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
     
 }
+.update1 h6{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 20px;
+ }
+
+ .update2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 80px;
+    margin-left: 70px;
+ }
+
+.update2 :first-child{
+    text-shadow: 0 0 1px #ffc019;
+    margin-right: 10px;
+ }
+
+
+ .box-button1 { 
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10px;
+ }
+
+ .update1 {
+    margin-top: 40px;
+ }
+
+ .box-two {
+    background-image: url(images/white_fon.jpg);
+    background-size: cover;
+ }
+ 
+.box-two:hover{
+    border: #ffc019 solid 5px;
+     transition: all 0.2s ;
+ }
