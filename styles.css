@@ -6,7 +6,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 body {
-    background:rgb(27, 27, 27); ;
+    background:rgb(27, 27, 27); 
+    height:  5000px;
 }
 nav {
     width: 100%;
@@ -443,60 +444,123 @@ background: #ffc019;
      transition: all 0.2s ;
  }
  /*******************************************/
- .events{
-    margin-top:  100px;
-    display: flex;
-    justify-content: center;
- }
-.event-text img {
-    width: 30px;
-}
- .event-text h5 {
-    font-size: 40px;
-    color: white;
- }
-
- .events-sitebar {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-left: 10%;
- }
-
- .event-right-sitebar, .event-left-sitebar {
-    width: 750px;
-    height: 800px;
- }
- .event-left-sitebar {
-    background-image: url(images/fon2.jpg);
+.events {
+    margin-top: 30px;
+    width: 100%;
+    background-image: url(images/nastol.com.ua-26972.jpg);
+    height:850px;
     background-size: cover;
-    margin-right: 50px;
-   
- }
- .event-right-sitebar {
-    background-image: url(images/fon2.jpg);
-    background-size: cover; 
-  
- }
+}
 
- .update11 {
+.box-event {
+    margin-top: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 650px 650px;
+    grid-row-gap: 10px;
+    grid-column-gap: 40px;
+}
+.box-events-rows {
+    background: rgb(248, 248, 248);
+    border-radius: 5px;
+    width: 650px;
+    height: 700px;
+    background-image:url(images/fon2.jpg);
+    background-size:cover;
+    
+}
+.events-text{
     color: white;
-    font-size: 30px;
+}
+.events-text ol:nth-last-child(-n + 3) {
+    margin-top: 20px;
+    margin: 15px 30px;
+}
+
+.events-text ol:nth-last-child(1) {
+    color: gray; 
+}
+.events-footer {
+    margin-top: 20px;
+    margin: 15px 30px;
+    display: grid;
+    grid-template-columns: 150px 400px;
+    color: white;
+}
+.events-footer h5:nth-child(1){
+    color: #ffc019;
+    
+}
+.events-footer h5:nth-last-child(1){
+    color: gray; 
     margin-left: 40px;
-    margin-right: 50px;
+    
+}
+ /*****************************************/
+ .community {
+    margin-top: 30px;
+    width: 100%;
     
  }
 
- .update11 h6{
-    margin-top: 20px;
- }
- .update22{
+ 
+ .community-text {
     display: flex;
-    color:white;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom:2px;
+    align-items: center;
+    justify-content: center;
  }
+ .community-text h5 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+ }
+ .community-text img {
+ width: 30px;
+ }
+
+ .box-community{
+    margin-top: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-row-gap: 10px; 
+    grid-column-gap: 10px;
+    
+ }
+ .box-one-community {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+ }
+ .box-one-community img {
+    width: 30px;
+ }
+ .box-one-community img:nth-child(1) {
+    width: 50px;
+ }
+
+ .comm-img{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+ }
+
+ .comm-img img:nth-last-child(1) {
+    margin-left: 40px;
+ }
+ .video-pubg {
+    width: 100%;
+   height: 200px;
+ }
+ .box-text-info{
+    margin: 10px 10px;
+ }
+ .box-text-info h5:nth-last-child(-n + 2){
+    margin-top: 20px;
+    font-style:oblique;
+ }
+ 
+
+ 
